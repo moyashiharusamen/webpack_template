@@ -1,0 +1,19 @@
+{
+    "extends": "eslint:recommended",
+    "parserOptions": {
+        "sourceType": "module",
+        "ecmaVersion": 2015
+    },
+    "globals": {
+        "window": false,
+        "document": false,
+        "setTimeout": false,
+        "location": false,
+        "requestAnimationFrame": false,
+        "IntersectionObserver": false
+    },
+    "rules": {
+        "dot-location": [2, "property"],
+        "strict": [0]
+    }
+}
