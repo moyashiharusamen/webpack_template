@@ -96,11 +96,6 @@ $ npm run build
 node package の **[autoprefixer](https://www.npmjs.com/package/autoprefixer)** の設定ファイルです。  
 [Can I Use](https://caniuse.com/) の情報をもとにベンダープレフィックスを付与してくれます。
 
-## [.csscomb.json](https://www.npmjs.com/package/csscomb)
-
-node package の **csscomb** の設定ファイルです。  
-SCSS コンパイル時に css ファイルを整形してくれます。
-
 ## [.editorconfig](https://editorconfig.org/)
 
 node package の **editorconfig** の設定ファイルです。  
@@ -121,8 +116,3 @@ node package の **editorconfig** の設定ファイルです。
 ## .sass-lint.yml
 
 **sass-lint** 用の設定ファイルです。
-
-
-## .clintrc.yaml
-
-**eslint** の除外用設定ファイルです。
